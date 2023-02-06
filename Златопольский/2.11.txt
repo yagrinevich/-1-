@@ -1,0 +1,6 @@
+import math
+print("Please, input m and v")
+m=int(input())
+v=int(input())
+p=m/v
+print(" density ", p )

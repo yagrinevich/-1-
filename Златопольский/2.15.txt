@@ -1,0 +1,7 @@
+import math
+print("Пожалуйста, введите радиусы")
+r1=int(input())
+r2=int(input())
+pi=3.14
+s=pi*r1**2-pi*r2**2
+print("Площадь кольца = ", s)

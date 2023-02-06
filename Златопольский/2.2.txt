@@ -1,0 +1,7 @@
+import math
+print("Please, input a")
+a=int(input())
+n=a**2+10
+m= math.sqrt(a ** 2 + 1)
+y=n/m
+print(y)

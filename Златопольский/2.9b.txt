@@ -1,0 +1,6 @@
+import math
+print("Please, input a and b")
+a=int(input())
+b=int(input())
+x=3.12*(a+b)**3+2.75*b**2-12.7*a-4.1
+print(" x = ", x)

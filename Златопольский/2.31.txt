@@ -1,0 +1,15 @@
+import math
+print("Сколько стоит 1 кг конфет?")
+c = int(input())
+print("Сколько купили кг конфет")
+x = int(input())
+print("Сколько стоит 1 кг печенья?")
+p = int(input())
+print("Сколько кг печенья купили?")
+y = int(input())
+print("Сколько стоит 1 кг яблок?")
+a = int(input())
+print("Сколь кг яблок купили?")
+z = int(input())
+s = c*x+p*y+a*z
+print("Стоимость =", s)

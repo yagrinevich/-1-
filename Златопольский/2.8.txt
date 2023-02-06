@@ -1,0 +1,7 @@
+import math
+print("Please, input radius")
+r=int(input())
+pi=3.14
+d=2*pi*r
+s=pi*r**2
+print(" Circumference length = ", d, "and square = ", s)

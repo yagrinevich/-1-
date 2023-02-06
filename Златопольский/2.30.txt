@@ -1,0 +1,12 @@
+import math
+print("Введите координаты точек")
+x1, x2=int(input()), int(input())
+y1, y2=int(input()), int(input())
+z1, z2=int(input()), int(input())
+a=math.sqrt((y1-x1)**2+(y2-x2)**2)
+b=math.sqrt((z1-y1)**2+(z2-y2)**2)
+c=math.sqrt((z1-x1)**2+(z2-x2)**2)
+p=a+b+c
+d=p/2
+s=4*(math.sqrt(d*(d-a)*(d-b)*(d-c)))
+print("Площадь =", s)

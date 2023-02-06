@@ -1,0 +1,9 @@
+import math
+print("Пожалуйста, введите a и b")
+a=int(input())
+b=int(input())
+if a==0:
+    print("Решений нет")
+else:
+    x=(-1*b)/a
+print("x =", x)

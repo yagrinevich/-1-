@@ -1,0 +1,6 @@
+import math
+print("Please, input a")
+a=int(input())
+s=4*(a**2)
+v=a**3
+print("Side surface area = ", s, "and volume = ", v)

@@ -1,0 +1,7 @@
+import math
+print("Введите основаниe трапеции a, b и угол t")
+a=int(input())
+b=int(input())
+t=int(input())
+s=((abs(a+b))/2)*(abs(math.sin(t))/abs(math.cos(t))*(abs(b-a))/2)
+print("Площадь =", s)

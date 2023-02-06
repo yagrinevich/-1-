@@ -1,0 +1,10 @@
+import math
+
+print("Пожалуйста, введите стороны a,b")
+a=int(input())
+b=int(input())
+s=a+b
+r=a-b
+p=a*b
+d=a//b
+print(s, r, p, d)

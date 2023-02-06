@@ -1,0 +1,6 @@
+import math
+print("Пожалуйста, введите катеты")
+a=int(input())
+b=int(input())
+c=a**2+b**2
+print("Гипотенуза равна", math.sqrt(c))

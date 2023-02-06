@@ -1,0 +1,6 @@
+import math
+print("Пожалуйста, введите длину и ширину трапеции")
+a=int(input())
+b=int(input())
+p=2a+2b
+print("Периметр равен = ", p)

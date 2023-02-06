@@ -1,0 +1,6 @@
+import math
+print("Please, input a")
+a=int(input())
+n=2*a+math.sin(abs(3*a))
+y= math.sqrt((n/3.56))
+print(y)

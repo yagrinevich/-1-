@@ -1,0 +1,9 @@
+import math
+
+print("Пожалуйста, введите стороны a,b, h")
+a = int(input())
+b = int(input())
+h = int(input())
+s = (2*a+2*b)*h
+v = a*b*h
+print(s, v)

@@ -1,0 +1,5 @@
+import math
+print("Please, input side of the square")
+x=int(input())
+p=4*x
+print("Side of the square = ", p)

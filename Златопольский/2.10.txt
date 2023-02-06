@@ -1,0 +1,7 @@
+import math
+print("Please, input a and b")
+a=int(input())
+b=int(input())
+x=(a+b)/2
+y=math.sqrt(a*b)
+print(" Arithmetic mean = ", x, "Geometric mean = ", y )
